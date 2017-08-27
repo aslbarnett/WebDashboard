@@ -1,0 +1,21 @@
+// colour variables
+
+$lightPurple: rgb(116, 119, 191);
+$dark: rgb(93, 97, 191);
+$darkPurple: rgb(77, 76, 114);
+$brightGreen: rgb(133, 219, 128);
+$grey: rgb(219, 219, 219);
+$lightGrey: rgb(251, 251, 251);
+$darkGrey: rgb(118, 117, 117);
+
+// functional colour variables
+
+$colour-main: $lightPurple;
+$divider: $dark;
+$colour-secondary: $darkPurple;
+$markers: $brightGreen;
+
+// Media query breakpoints
+
+$break-narrow: '(min-width: 768px)';
+$break-wide: '(min-width: 1024px)';

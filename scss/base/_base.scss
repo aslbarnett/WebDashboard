@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  //font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.vertical-rule {
+  border-left: 1px solid $divider;
+  margin-right: 15px;
+  margin-left: 15px;
+  height: 90%;
+}

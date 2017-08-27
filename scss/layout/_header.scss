@@ -1,0 +1,112 @@
+#main-header {
+  background-color: $colour-main;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  position: relative;
+
+  @media #{$break-narrow} {
+    padding: 1rem 2%;
+  }
+
+  @media #{$break-wide} {
+    padding-right: 2%;
+    padding-left: 2%;
+  }
+}
+
+#header-profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#bell-icon {
+  width: 15px;
+  height: 15px;
+
+  @media #{$break-narrow} {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+#header-profile-pic {
+  border-radius: 100%;
+  width: 28px;
+  height: 28px;
+
+  @media #{$break-narrow} {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+#header-svg-container {
+  display: flex;
+  cursor: pointer;
+}
+
+.bell-green-alert {
+  background-color: #85db80;
+  height: 5px;
+  width: 5px;
+  border-radius: 100%;
+}
+
+#alert-menu {
+  display: none;
+  position: absolute;
+  right: 10%;
+  top: 80%;
+  background-color: $lightGrey;
+  border-radius: 5px;
+  border: 1px solid $grey;
+}
+
+#alert-menu p {
+  margin: 20px;
+  color: $darkGrey;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+#alert-menu p:hover {
+  color: $colour-main;
+}
+
+#app-title {
+  font-size: 16px;
+  color: #fff;
+  display: flex;
+  align-self: center;
+
+  @media #{$break-narrow} {
+    font-size: 20px;
+  }
+}
+
+#bold-title {
+  font-weight: 400;
+}
+
+#skinny-title {
+  font-weight: 100;
+}
+
+#tm {
+  font-weight: 100;
+  font-size: 5px;
+  margin-top: 2px;
+}
+
+#header-profile-name {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300;
+  margin-left: 10px;
+
+  @media #{$break-narrow} {
+    font-size: 14px;
+  }
+}
