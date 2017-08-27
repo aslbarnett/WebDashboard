@@ -4,6 +4,7 @@
   justify-content: space-between;
   padding: 15px 20px;
   position: relative;
+  z-index: 30;
 
   @media #{$break-narrow} {
     padding: 1rem 2%;
@@ -55,6 +56,7 @@
 }
 
 #alert-menu {
+  z-index: 30;
   display: none;
   position: absolute;
   right: 10%;
